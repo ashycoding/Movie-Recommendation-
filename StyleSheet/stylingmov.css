@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-size:contain;
+    background-repeat: no-repeat;
+    color: white;
+    background-image: url('../assets/12781114_1920_1080_25fps-ezgif.com-video-to-gif-converter.gif');
+    background-color: rgb(31, 30, 30);
+}
+header {
+    text-align: center;
+    padding: 30px 20px;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.nav-logo {
+    margin: 0; 
+    padding: 0;
+    height: 50px; 
+    cursor: pointer;
+}
+.nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: hsl(63, 100%, 69%);
+    font-size: 1rem;
+}
+.hero {
+    position: relative;
+  z-index: 1;
+  color: white;
+  margin: 20px;
+  font-size: 2em;
+  text-align: center;
+}
+.hero h1 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.hero_p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    color: #cad556;
+}
+div.movie-posters{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 8px;
+    justify-content: center;
+}
+div.grid-item{
+    text-align: center;
+    padding: 15px;
+    margin: 5px;
+    background-color: rgb(65, 65, 65); 
+    color:white;
+    border-color: rgb(0, 0, 0);
+    border-radius: 8px;
+    transform: scale();
+    justify-content: center;
+    transition: transform 0.2s ease;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.grid-item img{
+    border-radius: 8px;
+}
+.grid-item:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: rgb(112, 110, 108);
+}
+footer{
+    text-decoration: none;
+    color: beige;
+    padding: 50px;
+    text-align: center;
+    word-spacing: 100px;
+}
+#res{
+    word-spacing: normal;
+    color:aliceblue;
+}
+footer a{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
